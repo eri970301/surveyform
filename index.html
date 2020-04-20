@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>survey form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section>
+    <h1 id="title">Formulario</h1>
+    <p id="description">Gracias por tomarte el tiempo de ayudarnos a mejorar nuestra plataforma</p>
+        <form id="survey-form">
+            <div>
+                <label for="name" id="name-label">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="ingrese su nombre" required>
+            </div>
+            <div><label for="email" id="email-label">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="ingrese su E-mail" required></div>
+            <div><label for="number" id="number-label">Edad</label>
+                <input type="number" name="age" id="number" min="18" max="80"placeholder="ingrese su edad" required></div>
+            <div>
+                <p id="opciones">Que es lo que mejor te describe?</p>
+                <select id="dropdown" name="role">
+                    <option disabled selected value>selecciona tu opcion</option>
+                    <option value="estudiante">estudiante</option>
+                    <option value="trabajo">trabajador de tiempo completo</option>
+                    <option value="aprendiz">aprendiz de tiempo completo</option>
+                    <option value="nada">prefiero no decirlo</option>
+                    <option value="other">otro</option>
+                </select>
+            </div>
+            <div>
+                <p id="opciones">Recomendarias el programa a un amigo?</p>
+                <label id="radios">
+                    <input type="radio" name="recomendado" checked>definitivamente
+                </label>
+                <label id="radios">
+                    <input type="radio" name="recomendado" checked>quizás
+                </label>
+                <label id="radios">
+                    <input type="radio" name="recomendado" checked>no estoy seguro
+                </label>
+            </div>
+            <div>
+                <p id="opciones"> Que te gustaria aprender?</p>
+                <label id="radios">
+                    <input type="checkbox" value="proyectos-frontend">Proyectos front-end
+                </label>
+                <label id="radios">
+                    <input type="checkbox" value="proyectos-backend">Proyectos Back-end
+                </label>
+                <label id="radios"><input type="checkbox" value="data-visualization">Data Visualization </label>
+                <label id="radios"><input type="checkbox" value="challenges">Retos</label>
+                <label id="radios"><input type="checkbox" value="comunidad-open-source">Comunidad open source</label>
+            </div>
+            <div>
+                <p id="opciones">Algun comentario o sugerencia?</p>
+                <textarea name="comentarios" id="textarea" cols="30" rows="10"
+                    placeholder="ingresa aqui tu comentario..."></textarea>
+            </div>
+            <div><button type="submit" id="submit">submit</button></div>
+        </form>
+    </section>
+    </body>

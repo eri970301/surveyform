@@ -1,0 +1,149 @@
+body {
+    background-color: rgba(242, 235, 247, 0.973);
+    font-family: sans-serif;
+    font-size: 200;
+    line-height: 1.4;
+    margin: 0px;
+    display: block;
+}
+section {
+    padding: 20px 15px 10px 15px;
+    width: 100%;
+    align-items: center;
+}
+#title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 200;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+
+}
+#description {
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 2px 2px 2px rosybrown;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#survey-form {
+    background-color: rgb(182, 129, 209);
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px; 
+    border-radius: 20px;
+    display: block;
+}
+#name-label {
+    font-size: 300;
+    font-style: oblique;
+    line-height: 1.4;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#name {
+    display: block;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 15px;
+}
+#email-label {
+    font-size: 300;
+    font-style: oblique;
+    line-height: 1.4;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#email {
+    display: block;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 15px;
+}
+#number-label {
+    font-size: 300;
+    font-style: oblique;
+    line-height: 1.4;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#number {
+    display: block;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 15px;
+}
+#opciones {
+    font-size: 300;
+    font-style: oblique;
+    line-height: 1.4;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#dropdown {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#radios {
+    display: flex;
+    color: darkmagenta;
+}
+#submit {
+    text-align: center;
+    background-color: rgb(131, 168, 238);
+    padding: 20px 100px 20px 100px;
+    font-weight: 800;
+    font-size:20px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border: 1px solid rgb(85, 47, 255);
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+}
+#textarea {
+    font-size: 300;
+    font-style: oblique;
+    line-height: 1.4;
+    color: black;
+    display: block;
+    width: 100%;
+    min-height: 120px;
+    resize: vertical;
+
+}
+@media (min-width: 600px) {
+    #form {
+        padding:30px;
+    }
+}
+@media (min-width: 770px) {
+    section {
+        max-width: 540px;
+        margin: auto;
+    }
+}
